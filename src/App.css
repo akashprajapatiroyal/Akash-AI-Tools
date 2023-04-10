@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+#textarea2 {
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+}
+
+.heading {
+  font-family: Poppins;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.grid-child {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.grid-child h3 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.grid-child p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.text-area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.action_btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 50px;
+}
+
+/* .result-text {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+} */
